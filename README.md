@@ -37,6 +37,7 @@ to this:
 
 ```
 ads: [JT.view.body.ad('admob', 'banner', 'a14dccd0fb24d45')]
+```
 
 ## Install
 
