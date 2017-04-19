@@ -40,16 +40,12 @@ export default class Components extends Jasonette {
   }
 
   textfieldOptions = {}
-  textfield(name, value, placeholder, options) {
-    return this._texttype(
+  textfield = (name, value, placeholder, options) => this._texttype(
       'textfield', name, value, placeholder, this.textfieldOptions, options)
-  }
 
   textareaOptions = {}
-  textarea(name, value, placeholder, options) {
-    return this._texttype(
+  textarea = (name, value, placeholder, options) => this._texttype(
       'textarea', name, value, placeholder, this.textareaOptions, options)
-  }
 
   sliderOptions = {}
   slider = (name, value, action, options) => Object.assign({
