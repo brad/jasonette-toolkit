@@ -1,7 +1,7 @@
 {
   "name": "jasonette-toolkit",
   "main": "dist/index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Brad Pitcher @brad",
   "description": "Useful shortcuts for creating jasonette apps",
   "engines": {
@@ -12,6 +12,7 @@
     "babel-istanbul": "^0.12.2",
     "babel-loader": "^6.4.1",
     "babel-plugin-__coverage__": "^11.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.24.1",
@@ -34,6 +35,6 @@
     "cover": "nyc mocha",
     "release": "standard-version",
     "build": "babel -d dist src",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   }
 }

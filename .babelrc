@@ -1,6 +1,9 @@
 {
   "presets": ["es2015"],
-  "plugins": ["transform-class-properties"],
+  "plugins": [
+    "add-module-exports",
+    "transform-class-properties"
+  ],
   "env": {
     "test": {
       "plugins": ["__coverage__"]
